@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="core.js" defer></script>
+  </head>
+  <body>
+    <h1>Double Player Tic Tac Toe</h1>
+    <p id="player"></p>
+    <div id="app-container">
+      <div class="app-row">
+        <button id="zeroZero" type="button" class="app-row__button" onclick="set(0,0)"></button>
+        <button id="zeroOne" type="button" class="app-row__button" onclick="set(0,1)"></button>
+        <button id="zeroTwo" type="button" class="app-row__button" onclick="set(0,2)"></button>
+      </div>
+      <div class="app-row">
+        <button id="oneZero" type="button" class="app-row__button" onclick="set(1,0)"></button>
+        <button id="oneOne" type="button" class="app-row__button" onclick="set(1,1)"></button>
+        <button id="oneTwo" type="button" class="app-row__button" onclick="set(1,2)"></button>
+      </div>
+      <div class="app-row">
+        <button id="twoZero" type="button" class="app-row__button" onclick="set(2,0)"></button>
+        <button id="twoOne" type="button" class="app-row__button" onclick="set(2,1)"></button>
+        <button id="twoTwo" type="button" class="app-row__button" onclick="set(2,2)"></button>
+      </div>
+      <button id="reset" type="button" onclick="start()">Reset</button>
+    </div>
+  </body>
+</html>
